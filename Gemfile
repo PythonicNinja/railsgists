@@ -7,6 +7,7 @@ gem 'jquery-rails', '3.1.0'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'redcarpet', '3.1.1'
+gem 'twitter-bootstrap-rails'
 
 #Syntax highlighter
 gem 'pygments.rb'
