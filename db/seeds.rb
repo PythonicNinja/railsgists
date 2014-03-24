@@ -7,13 +7,12 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-
-for i in 0..50
+for i in 0..150
   Gist.create(
-snippet: 'for i in 0..5
+      snippet: 'for i in 0..5
    puts "Value of local variable is #{i}"
 end',
-lang: "python",
-description: "try it for yourself"
-)
+      lang: "python",
+      description: "try it for yourself"
+  )
 end
