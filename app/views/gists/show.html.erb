@@ -1,20 +1,37 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Lang:</strong>
-  <%= @gist.lang %>
-</p>
+<div class="row">
+  <div class="col-xs-8">
+    <h1>Details of Gist nr <%= @gist.id %></h1>
+    Language: <div class="badge alert-success"><%= @gist.lang %></div>
+  </div>
+    <div class="col-xs-4">
+      <div class="pull-right">
+        <%= link_to gists_path, class:"btn btn-danger" do %>
+            <i class="glyphicon glyphicon-backward"></i> Back
+        <% end %>
 
-<p>
-  <strong>Snippet:</strong>
-</p>
+        <%= link_to edit_gist_path(@gist), class:"btn btn-success" do %>
+            <i class="glyphicon glyphicon-edit"></i> Edit
+        <% end %>
+      </div>
+    </div>
+</div>
 
-<%= raw Pygments.highlight(@gist.snippet, lexer: @gist.lang) %>
+<hr/>
 
-<p>
-  <strong>Description:</strong>
-  <%= @gist.description %>
-</p>
+  <h4>Code:</h4>
 
-<%= link_to 'Edit', edit_gist_path(@gist) %> |
-<%= link_to 'Back', gists_path %>
+
+<div class="alert-danger" id="code">
+    <%= raw Pygments.highlight(@gist.snippet, lexer: @gist.lang) %>
+</div>
+
+
+  <h4>Description:</h4>
+  <div class="alert alert-info">
+    <%= @gist.description %>
+  </div>
+
+
+

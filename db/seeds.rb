@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+
+for i in 0..50
+  Gist.create(
+snippet: 'for i in 0..5
+   puts "Value of local variable is #{i}"
+end',
+lang: "python",
+description: "try it for yourself"
+)
+end

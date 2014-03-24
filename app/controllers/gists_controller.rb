@@ -4,7 +4,7 @@ class GistsController < ApplicationController
   # GET /gists
   # GET /gists.json
   def index
-    @gists = Gist.all
+    @gists = Gist.paginate(:page => params[:page])
   end
 
   # GET /gists/1

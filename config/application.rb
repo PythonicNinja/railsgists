@@ -5,6 +5,9 @@ require "active_record/railtie"
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "sprockets/railtie"
+require 'pygments'
+require 'will_paginate'
+require 'will_paginate/active_record'  # or data_mapper/sequel
 # require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems

@@ -1,4 +1,5 @@
 <%= form_for(@gist) do |f| %>
+
   <% if @gist.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@gist.errors.count, "error") %> prohibited this gist from being saved:</h2>
@@ -13,17 +14,19 @@
 
   <div class="field">
     <%= f.label :snippet %><br>
-    <%= f.text_area :snippet %>
+    <%= f.text_area :snippet, style:"width: 100%; height: 200px;" %>
   </div>
   <div class="field">
     <%= f.label :lang %><br>
-    <%= f.text_field :lang %>
+    <%= f.text_field :lang, class:"btn btn-default" %>
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_field :description %>
+    <%= f.text_field :description, class:"btn btn-default" %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit class:"btn btn-success" do %>
+
+    <% end %>
   </div>
 <% end %>

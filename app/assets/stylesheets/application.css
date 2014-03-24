@@ -11,3 +11,10 @@
  *= require_self
  *= require_tree .
  */
+html, body{
+    font-size: 18px;
+}
+
+#code span{
+    font-size: 30px !important;
+}

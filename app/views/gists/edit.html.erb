@@ -1,6 +1,25 @@
-<h1>Editing gist</h1>
+
+
+<div class="row">
+  <div class="col-xs-8">
+    <h1>Editing gist nr <%= @gist.id %></h1>
+    Language: <div class="badge alert-success"><%= @gist.lang %></div>
+  </div>
+  <div class="col-xs-4">
+    <div class="pull-right">
+      <%= link_to gists_path, class:"btn btn-danger" do %>
+          <i class="glyphicon glyphicon-backward"></i> Back
+      <% end %>
+
+      <%= link_to gist_path(@gist), class:"btn btn-info" do %>
+          <i class="glyphicon glyphicon-eye-open"></i> Show
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<hr/>
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @gist %> |
-<%= link_to 'Back', gists_path %>
+
