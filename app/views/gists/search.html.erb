@@ -1,0 +1,53 @@
+<% if(@gists.length > 0) %>
+    <h2>Results</h2>
+    <hr/>
+
+    <table class="table table-bordered table-hover table-responsive">
+      <thead>
+      <tr>
+        <th class="text-center">#</th>
+        <th>Snippet</th>
+        <th>Lang</th>
+        <th>Description</th>
+        <th>Show</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <% @gists.each do |gist| %>
+          <tr>
+            <td class="text-center"><%= gist.id %></td>
+            <td>
+              <div class="well"><%= gist.snippet[0,10] %>...</div>
+            </td>
+            <td><%= gist.lang %></td>
+            <td><%= gist.description %></td>
+
+
+            <td class="text-center">
+              <%= link_to gist, class: "btn btn-info " do %>
+                  <i class="icon-book-open"></i>
+              <% end %>
+            </td>
+            <td class="text-center">
+              <%= link_to edit_gist_path(gist), class: "btn btn-success" do %>
+                  <i class="icon-edit"></i>
+              <% end %>
+            </td>
+            <td class="text-center">
+              <%= link_to gist, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" do %>
+                  <i class="icon-folder-delete"></i>
+              <% end %>
+            </td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+
+<% else if(@gists.length == 0) %>
+    <div class="alert alert-info">
+      <strong>No gists found.</strong>
+    </div>
+<% end end %>

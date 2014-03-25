@@ -7,6 +7,10 @@ class GistsController < ApplicationController
     @gists = Gist.paginate(:page => params[:page])
   end
 
+  def search
+    @gists = Gist.search(params[:lang])
+  end
+
   # GET /gists/1
   # GET /gists/1.json
   def show
