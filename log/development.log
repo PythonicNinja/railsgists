@@ -27175,3 +27175,457 @@ ActionView::Template::Error (marshal data too short):
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (17.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (10.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (6.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:26 UTC +00:00]]
+  [1m[36m (14.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (287.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (19.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "gists" ("created_at", "description", "lang", "snippet", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00], ["description", "try it for yourself"], ["lang", "python"], ["snippet", "for i in 0..5\n   puts \"Value of local variable is \#{i}\"\nend"], ["updated_at", Wed, 26 Mar 2014 12:02:27 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
