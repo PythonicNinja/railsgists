@@ -1,0 +1,220 @@
+I, [2014-03-25T11:47:03.125016 #6376]  INFO -- : Started GET "/gists" for 127.0.0.1 at 2014-03-25 11:47:03 +0100
+I, [2014-03-25T11:47:03.137022 #6376]  INFO -- : Processing by GistsController#index as HTML
+I, [2014-03-25T11:47:03.176050 #6376]  INFO -- :   Rendered gists/index.html.erb within layouts/application (4.0ms)
+I, [2014-03-25T11:47:03.177050 #6376]  INFO -- : Completed 500 Internal Server Error in 39ms
+F, [2014-03-25T11:47:03.181053 #6376] FATAL -- : 
+ActionView::Template::Error (Could not find table 'gists'):
+    13: 
+    14: 
+    15: <div class="text-center">
+    16:     <%= will_paginate @posts %>
+    17: </div>
+    18: 
+    19: <table class="table table-bordered table-hover table-responsive">
+  app/views/gists/index.html.erb:16:in `_app_views_gists_index_html_erb__848230999_41254524'
+
+
+I, [2014-03-25T11:47:56.098584 #7140]  INFO -- : Migrating to CreateGists (20140204155335)
+I, [2014-03-25T11:48:00.694527 #6376]  INFO -- : Started GET "/gists" for 127.0.0.1 at 2014-03-25 11:48:00 +0100
+I, [2014-03-25T11:48:00.696528 #6376]  INFO -- : Processing by GistsController#index as HTML
+I, [2014-03-25T11:48:00.701031 #6376]  INFO -- :   Rendered gists/index.html.erb within layouts/application (3.0ms)
+I, [2014-03-25T11:48:00.701031 #6376]  INFO -- : Completed 500 Internal Server Error in 5ms
+F, [2014-03-25T11:48:00.705034 #6376] FATAL -- : 
+ActionView::Template::Error (Could not find table 'gists'):
+    13: 
+    14: 
+    15: <div class="text-center">
+    16:     <%= will_paginate @posts %>
+    17: </div>
+    18: 
+    19: <table class="table table-bordered table-hover table-responsive">
+  app/views/gists/index.html.erb:16:in `_app_views_gists_index_html_erb__848230999_41254524'
+
+
+I, [2014-03-25T11:48:03.411476 #6376]  INFO -- : Started GET "/gists" for 127.0.0.1 at 2014-03-25 11:48:03 +0100
+I, [2014-03-25T11:48:03.412977 #6376]  INFO -- : Processing by GistsController#index as HTML
+I, [2014-03-25T11:48:03.417480 #6376]  INFO -- :   Rendered gists/index.html.erb within layouts/application (2.5ms)
+I, [2014-03-25T11:48:03.417480 #6376]  INFO -- : Completed 500 Internal Server Error in 5ms
+F, [2014-03-25T11:48:03.421482 #6376] FATAL -- : 
+ActionView::Template::Error (Could not find table 'gists'):
+    13: 
+    14: 
+    15: <div class="text-center">
+    16:     <%= will_paginate @posts %>
+    17: </div>
+    18: 
+    19: <table class="table table-bordered table-hover table-responsive">
+  app/views/gists/index.html.erb:16:in `_app_views_gists_index_html_erb__848230999_41254524'
+
+
+I, [2014-03-25T11:48:18.296255 #7076]  INFO -- : Started GET "/gists" for 127.0.0.1 at 2014-03-25 11:48:18 +0100
+I, [2014-03-25T11:48:18.320772 #7076]  INFO -- : Processing by GistsController#index as HTML
+I, [2014-03-25T11:48:18.362802 #7076]  INFO -- :   Rendered gists/index.html.erb within layouts/application (7.5ms)
+I, [2014-03-25T11:48:27.459372 #7076]  INFO -- : Completed 200 OK in 9138ms (Views: 9107.6ms | ActiveRecord: 1.5ms)
+I, [2014-03-25T11:48:27.580452 #7076]  INFO -- : Started GET "/assets/application-6421143ebb807f8722d46c22194a1a7c.css" for 127.0.0.1 at 2014-03-25 11:48:27 +0100
+I, [2014-03-25T11:48:27.686025 #7076]  INFO -- : Started GET "/assets/application-28aa35b832a0b6c12f9df0cdb3280c02.js" for 127.0.0.1 at 2014-03-25 11:48:27 +0100
+I, [2014-03-25T11:48:27.974283 #7076]  INFO -- : Started GET "/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-03-25 11:48:27 +0100
+F, [2014-03-25T11:48:27.978289 #7076] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-03-25T11:48:28.007308 #7076]  INFO -- : Started GET "/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2014-03-25 11:48:28 +0100
+F, [2014-03-25T11:48:28.010312 #7076] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-03-25T11:48:28.123383 #7076]  INFO -- : Started GET "/fonts/glyphicons-halflings-regular.svg" for 127.0.0.1 at 2014-03-25 11:48:28 +0100
+F, [2014-03-25T11:48:28.126386 #7076] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.svg"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-03-25T11:48:30.393976 #7076]  INFO -- : Started GET "/gists" for 127.0.0.1 at 2014-03-25 11:48:30 +0100
+I, [2014-03-25T11:48:30.395040 #7076]  INFO -- : Processing by GistsController#index as HTML
+I, [2014-03-25T11:48:30.401047 #7076]  INFO -- :   Rendered gists/index.html.erb within layouts/application (3.0ms)
+I, [2014-03-25T11:48:30.405047 #7076]  INFO -- : Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 1.0ms)
+I, [2014-03-25T11:48:31.645030 #7076]  INFO -- : Started GET "/gists/new" for 127.0.0.1 at 2014-03-25 11:48:31 +0100
+I, [2014-03-25T11:48:31.646532 #7076]  INFO -- : Processing by GistsController#new as HTML
+I, [2014-03-25T11:48:31.696065 #7076]  INFO -- :   Rendered gists/_form.html.erb (41.0ms)
+I, [2014-03-25T11:48:31.696562 #7076]  INFO -- :   Rendered gists/new.html.erb within layouts/application (45.5ms)
+I, [2014-03-25T11:48:31.696562 #7076]  INFO -- : Completed 500 Internal Server Error in 50ms
+F, [2014-03-25T11:48:31.704067 #7076] FATAL -- : 
+ActionView::Template::Error (marshal data too short):
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :lang %><br>
+    21:     <%= f.select :lang, Pygments.lexers.keys.sort.map! {|l| l.downcase.strip}, {}, class: "form-control" %>
+    22:   </div>
+    23:   <div class="field">
+    24:     <%= f.label :description %><br>
+  app/views/gists/_form.html.erb:21:in `block in _app_views_gists__form_html_erb__936684481_39950712'
+  app/views/gists/_form.html.erb:1:in `_app_views_gists__form_html_erb__936684481_39950712'
+  app/views/gists/new.html.erb:15:in `_app_views_gists_new_html_erb__566266363_39894120'
+
+
+I, [2014-03-25T11:48:31.721078 #7076]  INFO -- : Started GET "/gists/new" for 127.0.0.1 at 2014-03-25 11:48:31 +0100
+I, [2014-03-25T11:48:31.722583 #7076]  INFO -- : Processing by GistsController#new as HTML
+I, [2014-03-25T11:48:31.753601 #7076]  INFO -- :   Rendered gists/_form.html.erb (7.5ms)
+I, [2014-03-25T11:48:31.754100 #7076]  INFO -- :   Rendered gists/new.html.erb within layouts/application (27.5ms)
+I, [2014-03-25T11:48:31.754100 #7076]  INFO -- : Completed 500 Internal Server Error in 31ms
+F, [2014-03-25T11:48:31.758604 #7076] FATAL -- : 
+ActionView::Template::Error (marshal data too short):
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :lang %><br>
+    21:     <%= f.select :lang, Pygments.lexers.keys.sort.map! {|l| l.downcase.strip}, {}, class: "form-control" %>
+    22:   </div>
+    23:   <div class="field">
+    24:     <%= f.label :description %><br>
+  app/views/gists/_form.html.erb:21:in `block in _app_views_gists__form_html_erb__936684481_40539336'
+  app/views/gists/_form.html.erb:1:in `_app_views_gists__form_html_erb__936684481_40539336'
+  app/views/gists/new.html.erb:15:in `_app_views_gists_new_html_erb__566266363_40531020'
+
+
+I, [2014-03-25T11:48:37.477762 #7076]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-03-25 11:48:37 +0100
+I, [2014-03-25T11:48:37.479764 #7076]  INFO -- : Processing by GistsController#index as HTML
+I, [2014-03-25T11:48:37.484767 #7076]  INFO -- :   Rendered gists/index.html.erb within layouts/application (2.5ms)
+I, [2014-03-25T11:48:37.489770 #7076]  INFO -- : Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.5ms)
+I, [2014-03-25T11:48:38.874198 #7076]  INFO -- : Started GET "/gists/new" for 127.0.0.1 at 2014-03-25 11:48:38 +0100
+I, [2014-03-25T11:48:38.876198 #7076]  INFO -- : Processing by GistsController#new as HTML
+I, [2014-03-25T11:48:38.883702 #7076]  INFO -- :   Rendered gists/_form.html.erb (6.0ms)
+I, [2014-03-25T11:48:38.884201 #7076]  INFO -- :   Rendered gists/new.html.erb within layouts/application (7.0ms)
+I, [2014-03-25T11:48:38.884701 #7076]  INFO -- : Completed 500 Internal Server Error in 8ms
+F, [2014-03-25T11:48:38.892210 #7076] FATAL -- : 
+ActionView::Template::Error (marshal data too short):
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :lang %><br>
+    21:     <%= f.select :lang, Pygments.lexers.keys.sort.map! {|l| l.downcase.strip}, {}, class: "form-control" %>
+    22:   </div>
+    23:   <div class="field">
+    24:     <%= f.label :description %><br>
+  app/views/gists/_form.html.erb:21:in `block in _app_views_gists__form_html_erb__936684481_39950712'
+  app/views/gists/_form.html.erb:1:in `_app_views_gists__form_html_erb__936684481_39950712'
+  app/views/gists/new.html.erb:15:in `_app_views_gists_new_html_erb__566266363_39894120'
+
+
+I, [2014-03-25T11:48:38.907221 #7076]  INFO -- : Started GET "/gists/new" for 127.0.0.1 at 2014-03-25 11:48:38 +0100
+I, [2014-03-25T11:48:38.908718 #7076]  INFO -- : Processing by GistsController#new as HTML
+I, [2014-03-25T11:48:38.916236 #7076]  INFO -- :   Rendered gists/_form.html.erb (5.0ms)
+I, [2014-03-25T11:48:38.938241 #7076]  INFO -- :   Rendered gists/new.html.erb within layouts/application (27.5ms)
+I, [2014-03-25T11:48:38.938241 #7076]  INFO -- : Completed 500 Internal Server Error in 29ms
+F, [2014-03-25T11:48:38.945242 #7076] FATAL -- : 
+ActionView::Template::Error (marshal data too short):
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :lang %><br>
+    21:     <%= f.select :lang, Pygments.lexers.keys.sort.map! {|l| l.downcase.strip}, {}, class: "form-control" %>
+    22:   </div>
+    23:   <div class="field">
+    24:     <%= f.label :description %><br>
+  app/views/gists/_form.html.erb:21:in `block in _app_views_gists__form_html_erb__936684481_40539336'
+  app/views/gists/_form.html.erb:1:in `_app_views_gists__form_html_erb__936684481_40539336'
+  app/views/gists/new.html.erb:15:in `_app_views_gists_new_html_erb__566266363_40531020'
+
+

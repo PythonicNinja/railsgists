@@ -7,6 +7,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\wojtek\Dropbox\!studia\rails\my_gists\db\development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
+    <data-source source="LOCAL" name="Rails my_gists: production" uuid="648e87be-abb4-44a3-8b36-91e2bb1fda2e">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\wojtek\Dropbox\!studia\rails\my_gists\db\production.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
   </component>
 </project>
 
