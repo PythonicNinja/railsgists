@@ -69,7 +69,6 @@ git push heroku master
 
 ###Next
 
-*Sync db
 ```
 heroku run bin/rake db:migrate
 ```
