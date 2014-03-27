@@ -20,9 +20,9 @@
   <thead>
     <tr>
       <th class="text-center">#</th>
-      <th>Snippet</th>
+      <th class="hidden-xs">Snippet</th>
       <th>Lang</th>
-      <th>Description</th>
+      <th class="hidden-xs">Description</th>
       <th>Show</th>
       <th>Edit</th>
       <th>Delete</th>
@@ -33,11 +33,11 @@
     <% @gists.each do |gist| %>
       <tr>
         <td class="text-center"><%= gist.id %></td>
-        <td>
+        <td class="hidden-xs">
             <%= raw Pygments.highlight(gist.snippet, lexer: gist.lang) %>
         </td>
         <td><%= gist.lang %></td>
-        <td><%= gist.description %></td>
+        <td class="hidden-xs"><%= gist.description %></td>
 
 
         <td class="text-center">
