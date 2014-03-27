@@ -34,7 +34,7 @@
       <tr>
         <td class="text-center"><%= gist.id %></td>
         <td>
-          <div class="well"><%= gist.snippet[0,10] %>...</div>
+            <%= raw Pygments.highlight(gist.snippet, lexer: gist.lang) %>
         </td>
         <td><%= gist.lang %></td>
         <td><%= gist.description %></td>
