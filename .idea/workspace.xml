@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cb5aab-86a0-47f1-af4e-0be52739f4ff" name="Default" comment="readme added + gitignore&#10;">
-      <change type="DELETED" beforePath="C:\Users\wojtek\Dropbox\!studia\rails\my_gists\readme.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+    <list default="true" id="63cb5aab-86a0-47f1-af4e-0be52739f4ff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_gists.iws" />
@@ -55,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="26" selection-start="567" selection-end="567" vertical-scroll-proportion="0.3761062" vertical-offset="153" max-vertical-offset="1241">
+            <state line="13" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="-2.6153846" vertical-offset="153" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -82,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5752" column="3" selection-start="120674" selection-end="120683" vertical-scroll-proportion="-15.68" vertical-offset="97392" max-vertical-offset="98447">
+            <state line="5759" column="3" selection-start="120799" selection-end="120799" vertical-scroll-proportion="1.447592" vertical-offset="97392" max-vertical-offset="98447">
               <folding />
             </state>
           </provider>
@@ -786,16 +784,20 @@
       <created>1395919853626</created>
       <updated>1395919853626</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="responsive added">
+      <created>1395920903084</created>
+      <updated>1395920903084</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41677764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41677764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -829,7 +831,8 @@
     <MESSAGE value="readme added + gitignore" />
     <MESSAGE value="readme added + gitignore&#10;" />
     <MESSAGE value="fix index" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix index" />
+    <MESSAGE value="responsive added" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1113,13 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5752" column="3" selection-start="120674" selection-end="120683" vertical-scroll-proportion="-15.68" vertical-offset="97392" max-vertical-offset="98447">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/js/index.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="238">
@@ -1129,7 +1125,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="567" selection-end="567" vertical-scroll-proportion="0.3761062" vertical-offset="153" max-vertical-offset="1241">
+        <state line="13" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="-2.6153846" vertical-offset="153" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5759" column="3" selection-start="120799" selection-end="120799" vertical-scroll-proportion="1.447592" vertical-offset="97392" max-vertical-offset="98447">
           <folding />
         </state>
       </provider>
